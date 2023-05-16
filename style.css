@@ -651,6 +651,8 @@ section{
 /* contacts css */
 #contact {
     padding: 20px;
+    padding-top: 80%;
+    
   }
   
   .contact-info {
