@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-     
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
 
 header {
@@ -77,11 +77,679 @@ span{
 
 }
 
+
+
+
+
+@keyframes bounce{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+}  
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #F2F2F2; */
+}
+header {
+     background-color: white;
+      padding: 25px;
+}
+#logo{
+    margin-left:-85%;
+    width: 4vw;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #66A80F; */
+}
+nav li {
+    float: left;
+    margin-left: 13%;
+}
+nav li a {
+    display: block;
+   color:#001701;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover {
+    background-color: lightgreen;
+    transition: all 0.3s ease-in-out;
+    color: #66A80F;
+}
+
+
+
+section{
+    /* background-color: #1ea2eb; */
+  /* background-color: #ebbbdc; */
+  /* background-color: #647295; */
+  /* background-color: #c0A9BD; */
+  color: rgb(3, 3, 3);
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+  }
+  #cover1{
+    width: 100%;
+    border-radius: 20px;
+    margin: 5% 5%;
+  }
+  #cover2{
+    width: 100%;
+    margin: 35% 0%;
+    border-radius: 5% 35%;
+
+
+  }
+
+  #link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #023603;
+  }
+  #link1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-iteration-count:inherit; */
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  
+  }
+  #link2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+  }
+#ourStory{
+    /* border: solid rgb(175, 62, 62) 4px;
+    background-color: green;
+    width: 50%; */
+    font-size: larger;
+    width: 50%;
+    
+}
+#whatWeDo{
+    text-align: center;
+}
+#mission{
+    display: flex;
+    justify-content: space-between;
+}
+#mission1{
+     /* border: solid rgb(184, 54, 54) 4px;
+     border-width: 5%;
+    background-color: green;
+    width: 50%; */
+
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: larger;
+        /* font-weight: bolder; */
+        width: 50%;
+        color:green;
+        border: solid 5px whitesmoke;
+        border-radius: 30px;
+        background-color: whitesmoke;
+        opacity: 0.5;
+      
+        position: relative;
+        animation-name: bounce;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* animation-iteration-count:inherit; */
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      
+       
+}
+
+  #mmGreens1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    background-size: 100%;
+
+  }
+  #words{
+    margin: 10% 10% 0% 5%;
+  }
+  #mmGreens p {
+    font-size: larger;
+  }
+  #history{
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  #ourHistory{
+    display: flex;
+    justify-content: space-between;
+  }
+  #f1{
+    height: 45vh;
+    width: 23vw;
+    border-radius: 100%;
+    margin-left: 7%;
+    }
+    #f2{
+        height: 45vh;
+        width: 23vw;
+        border-radius: 100%;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    #f3{
+        height: 45vh;
+        width: 23vw;
+        border-radius: 100%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    #firstimage{
+        height: 65vh;
+    width: 32vw;
+    border-radius: 100%;
+    margin-left: 34%;
+    }
+    #our{
+        text-align: center;
+        font-size: 40px;
+    }
+    #flo{
+        margin-left: 42%;
+    }
+    .personalities{
+        display: flex;
+        margin-top: -7%;
+    }
+    #ma{
+        margin-left: 9%;
+        margin-top: -22%;
+    }
+    #br{
+        margin-left: 17%;
+        margin-top: -22%;
+    }
+    #re{
+        margin-left: 10%;
+        margin-top: -22%;
+    }
+    /* #flor{
+        margin-left: -70%;
+        margin-top: 7%;
+    } */
+    #hen{
+        margin-left: 28%;
+        margin-top: 7%;
+    }
+    #all{
+        font-size: 25px;
+    }
+
+    /* becky's codee */
+    body{
+      background-color:white;
+      padding: 100px;
+  }
+  
+  #team{
+    color:#023603;
+  }
+  #img{
+      width: 53%;
+      border-radius: 50px;
+  
+  }
+  .available{
+      margin-left: 58%;
+  
+      margin-top: -25%;
+      font-size: 30px;
+      margin-right: 0px;
+  }
+  .available h1{
+      animation: slideLeft 3s ease forwards;
+      animation-delay: 1.3s;
+      color: green
+  }
+  .images3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .images2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    /* justify-content: space-between; */
+  }
+  .images2-div1 p{
+    margin-right: -14%;
+  }
+  .images2-div2{
+    margin-left: 5%;
+  }
+  /* }
+  @keyframes slideLeft{
+      0%{
+          transform: translateX(100px);
+      }
+      100%{
+          transform: translateX(0);
+      } */
+  /* }  */
+  .available h2{
+      animation: slideTop 4s ease forwards;
+      animation-delay: 1.3s;
+      color: green
+  
+  /* }
+  @keyframes slideTop{
+      0%{
+          transform: translateY(100px);
+      }
+      100%{
+          transform: translateY(0);
+      } */
+  } 
+  .available h3{
+      animation: slideRight 6s ease forwards;
+      animation-delay: 1.3s;
+  
+  /* }
+  @keyframes slideRight{
+      0%{
+          transform: translateX(-100px);
+      }
+      100%{
+          transform: translateX(0);
+      } */
+  } 
+  .available span{
+      color: red;
+      font-size: 25px;
+      
+  }
+  .Product{
+      font-size: 30px;
+      text-align: center;
+  
+  }
+  .Product h4{
+      animation: slideTop 8s ease forwards;
+      animation-delay: 1.3s;
+      color: darkgreen
+  
+  }
+  .Product p{
+      color: green;
+  }
+  .Product span{
+      color: rgb(226, 16, 16);
+  /* }
+  @keyframes slideTop{
+      0%{
+          transform: translateY(100px);
+      }
+      100%{
+          transform: translateY(0);
+      } */
+  
+  /* }
+  #img2{
+      width: 25%;
+      margin-left: 100px;
+  }
+  #img3{
+      width: 29%;
+      margin-left: 60%;
+      margin-top: -1100px;
+  
+       */
+  }
+  .img{
+    display: flex;
+  }
+
+#img2, #img3,#img4{
+      width: 30%;
+      margin: 8px;
+      border-radius: 70px;
+      
+  }
+  .images h5{
+      font-size: 30px;
+      text-align: center;
+      color: darkgreen;
+      margin: 20px;
+  }
+  
+  .images h5 button{
+      font-size: 30px;
+      text-align: center;
+      color: darkgreen;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 20px;
+      border-color: green;
+      border: solid 5px;
+  
+      
+  
+      }
+  hr{
+      color: darkgreen;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      /* background-color: #F2F2F2; */
+  }
+  header {
+       background-color: white;
+        padding: 25px;
+  }
+  #logo{
+      margin-left:-90%;
+      width: 5vw;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background-color: #66A80F; */
+  }
+  nav li {
+      float: left;
+      margin-left: 13%;
+  }
+  nav li a {
+      display: block;
+     color:#001701;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  nav li a:hover {
+      background-color: lightgreen;
+      transition: all 0.3s ease-in-out;
+      color: green;
+      border-radius: 20px;
+  }
+  .fruted{
+      display: flex;
+      
+      
+  }
+  .one{
+      
+      border-color: green;
+      color: rgba(206, 193, 169, 0.815);
+      border: solid 5px;
+      background-color: yellow;
+      /* background-color: rgb(240, 240, 236); */
+      border-radius: 40px;
+      color: rgb(255, 255, 255);
+      
+      
+      
+  }
+  .two{
+      color: white;
+      border-radius: 40px;
+      margin-left: 40px;
+      color: greenyellow;
+      border: solid 5px;
+      background-color: yellow;
+      
+      /* background-color: rgb(240, 240, 236); */
+      
+      /* color: light red;
+      margin-left: 40px;
+      border: solid;
+      background-color: rgb(240, 240, 236); */
+      
+  }
+  .two  p{
+      margin-left: 20px;
+  }
+  
+  .one p{
+      margin-left: 20px;
+  }
+  .fruted h1{
+      margin-left: 60px;
+  }
+   
+  .fruted .one, h1{
+      animation: slideTop 10s ease forwards;
+      animation-delay: 1.3s;
+      color: green
+  
+  /* }
+  @keyframes slideTop{
+      0%{
+          transform: translateY(100px);
+      }
+      100%{
+          transform: translateY(0);
+      }
+       */
+  
+      }
+       
+  .fruted .two, h1{
+      animation: slideTop 10s ease forwards;
+      animation-delay: 1.3s;
+      color: green
+  
+  /* }
+  @keyframes slideTop{
+      0%{
+          transform: translateY(100px);
+      }
+      100%{
+          transform: translateY(0);
+      } */
+  
+      }
+      .offer{
+          margin-left: 50%;
+          margin-top: 10%;
+          font-size: 30px;
+          color: white;
+      }
+#imglast{
+  width: 40%;
+  margin-top: -32%;
+      }
+      .offer h1{
+          margin-bottom: 10%;
+          color: green;
+          
+      }
+      .offer p{
+  color: red;
+      }
+      .serve h1{
+          text-align: center;
+          font-size: 50px;
+          color: green;
+      }
+      .services{
+          display: flex;
+          font-size: 20px;
+      }
+      .services h1{
+          text-align: center;
+          color: green;
+      }
+      .home{
+          color:green;
+          border: solid 2px;
+          margin: 5px;
+          border-radius: 70px;
+          border-color: green;
+          /* background-color: yellow; */
+      }
+      .boxes{
+          color:green;
+          border: solid 2px;
+          border-color: white;
+          margin: 5px;
+          border-radius: 70px;
+          border-color: green;
+          /* background-color:rgb(230, 230, 27); */
+      }
+      .support{
+          color: green;
+          border: solid 2px;
+          margin: 5px;
+          border-radius: 70px;
+          border-color: green;
+          /* background-color:rgb(230, 230, 27); */
+      }
+      .support p{
+          margin-left: 20px;
+      }
+      .boxes p{
+          margin-left: 20px; 
+      }
+      .home p{
+          margin-left: 20px;
+          border-color: green;
+  
+      }
+      .serve h1 button{
+          font-size: 30px;
+          text-align: center;
+          color: darkgreen;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 20px;
+          border-color: green;
+          border: solid 5px;
+      }
+    
+
+
+
+
 /* Mobile Responsiveness */
 @media screen and (max-width: 600px) {
     nav li {
       float: none;
     }
+
+    #ourStory{
+        font-size: larger;
+        width: 100%;
+        
+    }
+    
+    #ourHistory{
+        display: block;
+        justify-content: space-between;
+      }
+
+      .available{
+        margin-left: 50%;
+        /* text-align: center; */
+        margin-top: -25%;
+        font-size: 10px;
+
+        margin-right: 50%;
+    }
+    .available h1{
+        animation: slideLeft 3s ease forwards;
+        animation-delay: 1.3s;
+        color: green
+    }
+    #img{
+        width: 50%;
+        margin-top: 50%;
+    
+    }
+    
+    .Product{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .Product p{
+        color: green;
+    }
+    .Product span{
+        color: rgb(226, 16, 16);
+    }
+    #theimages{
+        display: flex;
+    }
+    .offer{
+        margin-left: 10%;
+        font-size: 20px;
+        color: white;
+    }
+    #imglast{
+        width: 60%;
+        margin-top: -3%;
+        margin-left: 15%;
+            }
+    .services{
+                display: block;
+                font-size: 10px;
+    }
+    #f1{
+        height: 45vh;
+        width: 100%;
+        border-radius: 100%;
+        margin-left: 7%;
+        }
+        .images3{
+            display: block;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .images2{
+            display: block;
+            flex-direction: row;
+            margin-left: 5%;
+            /* justify-content: space-between; */
+          }
+          #f2{
+            width: 100%;
+          }
+          #f3{
+            width: 100%;
+          }
+        
+        
+        
+    
+      
+
+
+  
+  
+    
+
+
     
     nav li a {
       display: block;
