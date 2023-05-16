@@ -656,6 +656,100 @@ section{
     nav li {
       float: none;
     }
+
+    #ourStory{
+        font-size: larger;
+        width: 100%;
+        
+    }
+    
+    #ourHistory{
+        display: block;
+        justify-content: space-between;
+      }
+
+      .available{
+        margin-left: 50%;
+        /* text-align: center; */
+        margin-top: -25%;
+        font-size: 10px;
+
+        margin-right: 50%;
+    }
+    .available h1{
+        animation: slideLeft 3s ease forwards;
+        animation-delay: 1.3s;
+        color: green
+    }
+    #img{
+        width: 50%;
+        margin-top: 50%;
+    
+    }
+    
+    .Product{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .Product p{
+        color: green;
+    }
+    .Product span{
+        color: rgb(226, 16, 16);
+    }
+    #theimages{
+        display: flex;
+    }
+    .offer{
+        margin-left: 10%;
+        font-size: 20px;
+        color: white;
+    }
+    #imglast{
+        width: 60%;
+        margin-top: -3%;
+        margin-left: 15%;
+            }
+    .services{
+                display: block;
+                font-size: 10px;
+    }
+    #f1{
+        height: 45vh;
+        width: 100%;
+        border-radius: 100%;
+        margin-left: 7%;
+        }
+        .images3{
+            display: block;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .images2{
+            display: block;
+            flex-direction: row;
+            margin-left: 5%;
+            /* justify-content: space-between; */
+          }
+          #f2{
+            width: 100%;
+          }
+          #f3{
+            width: 100%;
+          }
+        
+        
+        
+    
+      
+
+
+  
+  
+    
+
+
     
     nav li a {
       display: block;
